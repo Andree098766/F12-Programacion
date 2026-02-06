@@ -1,0 +1,111 @@
+\documentclass[12pt]{article}
+
+% --- Página y tipografía ---
+\usepackage[letterpaper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % si compilas con pdfLaTeX
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% --- Imágenes y color ---
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% --- Control fino de espacios ---
+\usepackage{setspace}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\thispagestyle{empty}
+
+% ===== Encabezado con logos + texto =====
+\begin{minipage}[c]{0.18\textwidth}
+    \centering
+    % Cambia por tu logo izquierdo
+    \includegraphics[width=0.95\linewidth]{img/logo_usac.jpeg}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.60\textwidth}
+    \small
+    Universidad de San Carlos de Guatemala\\
+    Escuela de Ciencias Físicas y Matemáticas\\
+    Angel Andreé Molina Hernández\\
+    Carnet: 202601287\\
+    Programación 1\\
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.18\textwidth}
+    \centering
+    % Cambia por tu logo derecho
+    \includegraphics[width=1.4\linewidth]{img/logo_ecfm.jpg}
+\end{minipage}
+
+\vspace{0.5cm}
+
+% Línea horizontal superior (gruesa)
+\noindent\rule{\textwidth}{1.2pt}
+
+\vspace{0.2cm}
+
+% ===== Título =====
+\begin{center}
+    {\Large\scshape Matemáticas y Programación}\\[0.3em]
+\end{center}
+
+\vspace{0.1cm}
+
+% Fecha
+\begin{center}
+    \small\scshape 6 de febrero de 2026
+\end{center}
+
+\vspace{0.2cm}
+
+% Línea horizontal inferior (gruesa)
+\noindent\rule{\textwidth}{1.2pt}
+
+\vspace{0.6cm}
+
+% ===== Caja de resumen =====
+\noindent
+\colorbox{gray!35}{%
+    \parbox{\textwidth}{%
+        \vspace{0.6em}
+        \textbf{Resumen}\\[0.3em]
+        \small
+        La programación se ha vuelto una herramienta indispensable para los matemáticos modernos. Permitiendo cientos de cálculos, comprobación de casos, modelación de redes complejas, entre otras muchas ayudas que nos brindan. Reduciendo en gran parte los tediosos cálculos y permitiendo a los matemáticos centrarse en las bellas ideas de esta disciplina.
+        \vspace{0.8em}
+    }%
+}
+
+\section{La Era Moderna}
+Por la mayor parte de la historia los matemáticos han tenido solo una herramienta: sus cabezas. Todas las demostraciones hechas en el pasado han sido fruto único del ingenio, todos los grandes avances han sido nada más que producto de una perfecta cadena lógica. Por ejemplo, la demostración de la \textit{Suma Gaussiana} nació de la mente del pequeño Gauss, por nada más que intuición y álgebra. No tuvo que intentar calcular la suma de los números \(1, 2, \ldots, 100\). Algo terriblemente tedioso, y abierto a muchos errores humanos.
+\\ \\
+Afortunadamente, en la era moderna tenemos acceso a computadoras, y con eso, a la posibilidad de decirles que hacer mediante la \textit{programación}. Por medio de la programación un matemático es capaz de traducir ideas abstractas en algoritmos que producen resultados obesrvables. Lo que antes requeriría de cálculos interminables ahora resultan en algunas horas de programación y, a veces, algunos días de ejecución.
+\\ \\
+Esto permite generar intuición sobre algunos problemas. Lo que antes llevaba horas y horas de tedioso calculo ahora se puede realizar casi en minutos. Probar muchos, hasta miles, de casos en algunos problemas de Teoría de Números para generar intuición. Modificar en tiempo real construcciones geométricas perfectas, graficar funciones complejísimas para entenderlas mejor. Sin duda, la programación genera un sin fin de soluciones para los matemáticos.
+\\ \\
+Por ejemplo, el primer teorema que tuvo ayuda de una computadora para ser demostrado fue el \textit{teorema de los cuatro colores}. Que establece
+
+\colorbox{gray!35}{%
+    \parbox{\textwidth}{%
+        \vspace{0.6em}
+        \textbf{Teorema de los Cuatro Colores}\\[0.3em]
+        \small
+        \emph{Establece que cualquier mapa plano, con regiones contiguas, puede colorearse usando como máximo cuatro colores diferentes sin que dos regiones adyacentes compartan el mismo color}
+        \vspace{0.8em}
+    }%
+}
+\\ \\
+En el un ordenador fue usado para demostrar cientos de casos (cerca de 900) de este mapa plano. Algo que hubiera tomado cientos de horas de los investigadores fue reducido a algunas horas de programación y algunos días para que la computadora se ejecutara y verificar los resultados.
+\\ \\
+Por otro lado, en matemática aplicada. Nos ayuda a generar modelos para predicciones económicas, ambientales, sociales. A visualizar carreteras, comunicaciones, redes y grafos mucho más rápido que antes, y de forma más flexible, pues ahora podemos modificar con avidez cada parámetro de nuestro modelo modificando alguna variable de nuestro código.
+\\ \\ 
+Por mi parte, deseo profundizar en la Teoría de Números. Una rama de las matemáticas que trata las propiedades de los números Enteros. La programación es tan útil en este campo que es casi indispensable, pues me ayudaría a probar cientos de casos de alguna conjetura, como:
+``Sean \(a\) y \(b\) enteros positivos tales que \(ab+1\) divide a \(a^2+b^2+1\). Entonces \(\frac{a^2+b^2}{ab+1}\) es siempre un cuadrado perfecto.''
+Algo que a mano me tomaría cientos de horas, con un poco de código seria capaz de probar miles y miles de casos. De esta manera generaría intuición y tendría más confianza en que mi conjetura es cierta.
+\\ \\
+En conclusión, la programación se ha convertido en una herramienta indispensable en la matemática moderna. No solo nos ayuda a generar intuición, educar mejor y demostrar teoremas nuevos mediante exhaustion o novedosas ideas solo posibles por la programación. Si no también en la parte menos teórica de las matemáticas creando modelos computacionales que ayudan cientos de empresas en su día a día.
+\end{document}
+
+\end{document}
