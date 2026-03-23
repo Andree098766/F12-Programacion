@@ -1,0 +1,40 @@
+[2026-02-23T02:24:23.219Z] info  code-server 4.109.2 9184b645cc7aa41b750e2f2ef956f2896512dd84
+[2026-02-23T02:24:23.220Z] info  Using user-data-dir /config/data
+[2026-02-23T02:24:23.248Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-02-23T02:24:23.249Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-02-23T02:24:23.249Z] info    - Authentication is enabled
+[2026-02-23T02:24:23.249Z] info      - Using password from $PASSWORD
+[2026-02-23T02:24:23.249Z] info    - Not serving HTTPS
+[2026-02-23T02:24:23.249Z] info  Session server listening on /config/data/code-server-ipc.sock
+[20:24:39] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[20:24:39] Extension host agent started.
+[20:24:39] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+[20:24:39] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+[20:24:54] [172.17.0.1][b2fea4d2][ManagementConnection] New connection established.
+[20:24:59] [172.17.0.1][45378a37][ExtensionHostConnection] New connection established.
+[20:24:59] [172.17.0.1][45378a37][ExtensionHostConnection] <875> Launched Extension Host Process.
+[20:25:00] [172.17.0.1][45378a37][ExtensionHostConnection] <875> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[20:25:13] [172.17.0.1][b2fea4d2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:25:15] [172.17.0.1][45378a37][ExtensionHostConnection] <875> Extension Host Process exited with code: 0, signal: null.
+[20:25:17] [172.17.0.1][a88868ab][ManagementConnection] New connection established.
+[20:25:21] [172.17.0.1][12989882][ExtensionHostConnection] New connection established.
+[20:25:21] [172.17.0.1][12989882][ExtensionHostConnection] <1535> Launched Extension Host Process.
+[20:25:23] [172.17.0.1][12989882][ExtensionHostConnection] <1535> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[20:26:13] [172.17.0.1][b1331128][ManagementConnection] New connection established.
+[20:26:16] [172.17.0.1][b98a59cb][ExtensionHostConnection] New connection established.
+[20:26:16] [172.17.0.1][b98a59cb][ExtensionHostConnection] <3085> Launched Extension Host Process.
+[20:26:17] [172.17.0.1][b98a59cb][ExtensionHostConnection] <3085> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[20:33:56] [172.17.0.1][12989882][ExtensionHostConnection] The client has reconnected.
+[20:34:37] [172.17.0.1][12989882][ExtensionHostConnection] The client has reconnected.
+[20:46:27] [172.17.0.1][a88868ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:46:27] [172.17.0.1][12989882][ExtensionHostConnection] <1535> Extension Host Process exited with code: 0, signal: null.
+[21:07:12] [172.17.0.1][b1331128][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:07:13] [172.17.0.1][b98a59cb][ExtensionHostConnection] <3085> Extension Host Process exited with code: 0, signal: null.
